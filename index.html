@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Dammy — Graphic Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css">
+<!-- Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<header>
+  <div class="nav-logo">OA</div>
+  <nav class="nav-pill" role="navigation" aria-label="Main">
+    <a href="#hero" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Projects</a>
+  </nav>
+  <a href="#contact" class="nav-cta">Let's Talk</a>
+  <button class="nav-mobile-toggle" aria-label="Menu" onclick="toggleMobileNav()">☰</button>
+</header>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <p class="hero-eyebrow">I am Oluwadamilola Ajelero</p>
+      <h1 class="hero-name">Graphic<br/>Designer<br/>&amp; Visual Creator</h1>
+      <p class="hero-desc">Blending bold typography with thoughtful composition to craft brand identities, posters, and visual systems that make people stop scrolling.</p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn-solid">View My Work</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+          <a href="https://www.behance.net/ajelerodamilola" title="Behance"><i class="fa-brands fa-behance"></i></a>
+          <a href="https://www.linkedin.com/in/oluwadamilola-ajelero-27226a361/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/d4mmythecreative/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+          <hr class="hero-divider">
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <div class="hero-float-chip c1">Logo Design</div>
+        <div class="hero-float-chip c2">Brand Identity</div>
+        <div class="hero-float-chip c3">Poster Design</div>
+        <div class="hero-photo">
+         <img src="d4mmythecreative.jpg" alt="My Profile Photo" class="profile-img">
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about" class="section">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="about-photo">
+           <img src="headshot.jpg" alt="My Profile Photo" class="profile-img">
+        </div>
+      </div>
+
+      <div>
+        <p class="about-label reveal">Who I Am</p>
+        <h2 class="about-title reveal">About Me</h2>
+          <p class="about-bio reveal">I'm a graphic designer and visual storyteller
+           passionate about crafting <strong>bold, meaningful designs</strong> 
+           that communicate before a single word is read. 
+           I focus on turning concepts into compelling visuals — from logos that anchor 
+           a brand to poster campaigns that own a wall. I work across identity, 
+           typography, and digital media to deliver consistent, purposeful work.
+          </p>
+        <div class="about-exp-row reveal">
+          <div>
+            <div class="about-exp-num">4+</div>
+            <div class="about-exp-label">Years of Experience</div>
+          </div>
+          <div>
+            <div class="about-exp-num">50+</div>
+            <div class="about-exp-label">Projects Completed</div>
+          </div>
+          <div>
+            <div class="about-exp-num">30+</div>
+            <div class="about-exp-label">Clients Served</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES & SKILLS ── -->
+<section id="services" class="section" style="padding-top:0;">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2 class="reveal">Services</h2>
+      <p class="section-sub reveal">Crafting identities, visuals, and campaigns that connect</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-card-title">Logo &amp; Brand Identity</div>
+        <div class="service-card-desc">Distinctive marks and complete visual systems — from the first sketch to a full brand guide ready for print and digital.</div>
+        <div class="service-tags">
+          <div class="service-tag">Wordmarks &amp; symbols</div>
+          <div class="service-tag">Brand guidelines</div>
+        </div>
+      </div>
+      <div class="service-card reveal reveal-d1">
+        <div class="service-card-title">Poster &amp; Print Design</div>
+        <div class="service-card-desc">Bold, eye-catching posters for events, campaigns, and products that demand attention and communicate instantly.</div>
+        <div class="service-tags">
+          <div class="service-tag">Event posters</div>
+          <div class="service-tag">Product campaigns</div>
+        </div>
+      </div>
+      <div class="service-card reveal reveal-d3">
+        <div class="service-card-title">Social Media Graphics</div>
+        <div class="service-card-desc">Scroll-stopping content for Instagram, Facebook, and beyond — templates, campaigns, and series built for engagement and consistency.</div>
+        <div class="service-tags">
+          <div class="service-tag">Feed templates</div>
+          <div class="service-tag">Campaign series</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section-head" style="margin-top:72px;margin-bottom:20px;">
+      <h2 class="reveal">Skills</h2>
+      <p class="section-sub reveal">Tools and disciplines I use every day</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Core Skills</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Logo Design</span>
+          <span class="skill-tag">Brand Identity</span>
+          <span class="skill-tag">Typography</span>
+          <span class="skill-tag">Color Theory</span>
+          <span class="skill-tag">Composition</span>
+        </div>
+      </div>
+      <div class="skill-card reveal reveal-d1">
+        <div class="skill-card-title">Design Tools</div>
+        <div class="skill-icons-grid">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/adobeillustrator.svg" alt="Adobe Illustrator" title="Adobe Illustrator" class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/adobephotoshop.svg" alt="Adobe Photoshop" title="Adobe Photoshop" class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/canva.svg" alt="Canva" title="Canva" class="tool-icon">
+          <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/coreldraw.svg" alt="CorelDRAW" title="CorelDRAW" class="tool-icon">
+        </div>
+      </div>
+      <div class="skill-card reveal reveal-d2">
+        <div class="skill-card-title">Visual Disciplines</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Poster Design</span>
+          <span class="skill-tag">Print Media</span>
+          <span class="skill-tag">Social Graphics</span>
+          <span class="skill-tag">Advertising</span>
+        </div>
+      </div>
+      <div class="skill-card reveal reveal-d3">
+        <div class="skill-card-title">Workflow</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Client Briefing</span>
+          <span class="skill-tag">Concept Development</span>
+          <span class="skill-tag">Revision Cycles</span>
+          <span class="skill-tag">File Delivery</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PORTFOLIO ── -->
+<section id="portfolio" class="section" style="padding-top:0;">
+  <div class="section-inner">
+    <div class="section-head">
+      <h2 class="reveal">Projects</h2>
+      <p class="section-sub reveal">A selection of recent work across branding, print, and digital</p>
+    </div>
+
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-f="all">All</button>
+      <button class="filter-btn" data-f="logo">Logos</button>
+      <button class="filter-btn" data-f="branding">Branding</button>
+      <button class="filter-btn" data-f="poster">Posters</button>
+      <button class="filter-btn" data-f="social">Social</button>
+    </div>
+
+    <div class="portfolio-grid" id="pgrid">
+
+      <div class="p-item" data-c="logo" style="--ar:1/1;background:#111417;">
+        <div class="p-item-inner">
+          <svg width="36" height="36" fill="none" stroke="#333" stroke-width="1" viewBox="0 0 24 24" class="p-placeholder-icon"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg>
+          <span class="p-placeholder-label">Logo Mark</span>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-title">Logo Design</div>
+          <a href="https://www.behance.net/your-link" target="_blank" class="p-overlay-btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="p-item" data-c="poster" style="--ar:2/3;background:#0f1218;">
+        <div class="p-item-inner">
+          <svg width="36" height="36" fill="none" stroke="#333" stroke-width="1" viewBox="0 0 24 24" class="p-placeholder-icon"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 8h8M8 12h8M8 16h4"/></svg>
+          <span class="p-placeholder-label">Event Poster</span>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-title">Poster Design</div>
+           <a href="https://www.behance.net/your-link" target="_blank" class="p-overlay-btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="p-item" data-c="branding" style="--ar:3/4;background:#13100e;">
+        <div class="p-item-inner">
+          <svg width="36" height="36" fill="none" stroke="#333" stroke-width="1" viewBox="0 0 24 24" class="p-placeholder-icon"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+          <span class="p-placeholder-label">Brand System</span>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-title">Brand Identity</div>
+           <a href="https://www.behance.net/your-link" target="_blank" class="p-overlay-btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="p-item" data-c="social" style="--ar:1/1;background:#0a1210;">
+        <div class="p-item-inner">
+          <svg width="36" height="36" fill="none" stroke="#333" stroke-width="1" viewBox="0 0 24 24" class="p-placeholder-icon"><rect x="5" y="2" width="14" height="20" rx="2"/></svg>
+          <span class="p-placeholder-label">Product Ad</span>
+        </div>
+        <div class="p-overlay">
+          <div class="p-overlay-title">Social Media</div>
+           <a href="https://www.behance.net/your-link" target="_blank" class="p-overlay-btn">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact" class="section">
+  <div class="section-inner">
+    <div class="contact-card reveal">
+      <h2>Let's Work Together</h2>
+      <p>Got a project in mind? Whether it's a new brand, a poster, or just an idea — I'd love to hear from you. Fill in the form and I'll get back to you within 24 hours.</p>
+
+      <form action="https://formspree.io/f/mzdndape" method="POST" class="contact-form">
+        <div class="form-row-2">
+          <div class="form-group">
+           <label for="fn">First Name</label>
+           <input type="text" id="fn" name="First Name" placeholder="Ahmad" required/> 
+          </div>
+          <div class="form-group">
+            <label for="ln">Last Name</label>
+           <input type="text" id="ln" name="Last Name" placeholder="Setiawan" required/>
+         </div>
+        </div>
+        <div class="form-group">
+          <label for="em">Email</label>
+          <input type="email" id="em" name="Email" placeholder="you@example.com" required/>
+        </div>
+        <div class="form-group">
+           <label for="svc">Service Needed</label>
+            <select id="svc" name="Service" required>
+            <option value="" disabled selected>Select a service...</option>
+            <option>Logo Design</option>
+            <option>Brand Identity</option>
+            <option>Poster Design</option>
+            <option>Social Media Graphics</option>
+            <option>Advertising</option>
+            <option>Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="msg">Message</label>
+          <textarea id="msg" name="Message" rows="4" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <div class="form-submit-row">
+          <button type="submit" class="btn-form-submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+
+    <footer>
+      <div class="footer-logo">OA.</div>
+      <p class="footer-copy">© 2026 Oluwadamilola Ajelero</p>
+      <div style="display: flex; gap: 24px;">
+        <a href="https://www.behance.net/ajelerodamilola"><i class="fa-brands fa-behance"></i></a>
+        <a href="https://www.linkedin.com/in/oluwadamilola-ajelero-27226a361/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/d4mmythecreative/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+  </div>
+</section>
+
+<script>
+/* scroll reveal */
+const ro = new IntersectionObserver(entries=>{
+  entries.forEach((e,i)=>{
+    if(e.isIntersecting){
+      setTimeout(()=>e.target.classList.add('vis'), i*70);
+      ro.unobserve(e.target);
+    }
+  });
+},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+
+/* nav active on scroll */
+const secs = document.querySelectorAll('section[id]');
+const navAs = document.querySelectorAll('.nav-pill a');
+window.addEventListener('scroll',()=>{
+  let cur='';
+  secs.forEach(s=>{ if(window.scrollY>=s.offsetTop-140) cur=s.id; });
+  navAs.forEach(a=>{
+    a.classList.toggle('active', a.getAttribute('href')==='#'+cur);
+  });
+},{passive:true});
+
+/* portfolio filter */
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.f;
+    document.querySelectorAll('.p-item').forEach(item=>{
+      const match = f==='all' || item.dataset.c===f;
+      item.style.opacity = match ? '1' : '0.1';
+      item.style.pointerEvents = match ? 'auto' : 'none';
+      item.style.transition = 'opacity 0.3s, transform 0.3s';
+    });
+  });
+});
+
+/* form */
+function submitForm(btn){
+  btn.textContent='Sent ✓';
+  btn.style.background='#1a3a1a';
+  btn.style.color='#88cc88';
+  btn.disabled=true;
+  setTimeout(()=>{
+    btn.textContent='Send Message';
+    btn.style.background='';
+    btn.style.color='';
+    btn.disabled=false;
+  },3000);
+}
+
+/* mobile nav */
+function toggleMobileNav(){
+  const nav = document.querySelector('.nav-pill');
+  if(nav.style.display==='flex'){
+    nav.style.display='none';
+  } else {
+    Object.assign(nav.style,{
+      display:'flex',flexDirection:'column',
+      position:'fixed',top:'70px',left:'20px',right:'20px',
+      borderRadius:'16px',padding:'12px',background:'#161616',
+      zIndex:'200'
+    });
+  }
+}
+</script>
+</body>
+</html>
